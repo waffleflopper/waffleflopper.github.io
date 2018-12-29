@@ -1,0 +1,28 @@
+body {
+    background-image: url(header.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 375px;
+    width: 740px;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+}
+
+form {
+    align-self: center;
+}
+.myBtn {
+    margin-top: 240px;
+    width: 150px;
+    align-self: center;
+}
