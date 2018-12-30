@@ -9,6 +9,7 @@ JAVASCRIPT TYPES:
 5. Null
 6. Symbol (new in ECMAScript 6)
 7. Object
+    a collection of property
 
 JAVASCRIPT COMPARISIONS
 !==
@@ -39,3 +40,19 @@ JAVASCRIPT LOGICAL OPERATORS
 !
 
 JAVASCRIPT FUNCTIONS
+var a = function name() {}
+    called function expression
+function name() {}
+    called function declaration
+return
+() => (new in ECMAScript 6)
+
+JAVASCRIPT DATA STRUCTURES
+Array
+Object
+
+JAVASCRIPT LOOPING
+for
+while
+do
+forEach (new in ECMASCript 6)
