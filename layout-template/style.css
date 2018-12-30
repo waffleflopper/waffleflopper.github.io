@@ -10,7 +10,7 @@ body {
 
 .full {
     padding:30px 50px;
-    cursor:pointer;
+   
     display:inline-block;
     color:#FFF;
     font-size:2em;
@@ -23,6 +23,7 @@ body {
     margin: 0px;
     padding-top: 30px;
     grid-column: 1 / -1;
+    cursor: pointer;
 }
 
     .header ul {
@@ -86,6 +87,7 @@ body {
     justify-content: center;
     align-self: center;
     justify-self: center;
+    cursor: pointer;
 
 }
     .box img {
