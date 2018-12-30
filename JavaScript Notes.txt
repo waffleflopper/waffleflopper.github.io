@@ -1,0 +1,41 @@
+JAVASCRIPT TYPES:
+1. Number
+    NaN --> "Not A Number"
+2. String
+    10 + "34" --> "1034"
+    10 - "3" --> 7
+3. Boolean
+4. Undefined
+5. Null
+6. Symbol (new in ECMAScript 6)
+7. Object
+
+JAVASCRIPT COMPARISIONS
+!==
+===
+>=
+<=
+>
+<
+
+JAVASCRIPT VARIABLES
+var
+    has to start with a letter
+    can start with $ or _
+    
+let (new in ECMASCript 6)
+const (new in ECMASCript 6)
+
+JAVASCRIPT CONDITIONALS
+if
+else
+else if
+ternary operator
+switch
+
+JAVASCRIPT LOGICAL OPERATORS
+&&
+!!
+!
+
+JAVASCRIPT FUNCTIONS
