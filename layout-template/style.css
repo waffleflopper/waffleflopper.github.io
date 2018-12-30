@@ -61,9 +61,19 @@ body {
     grid-column: 1 /-1;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-
+    justify-content: center;
     grid-gap: 15px;
 }
+
+.flex-container {
+    grid-column: 1 /-1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .flex-container .box {
+        margin: 15px;
+    }
 
 .box {
     height: 350px;
