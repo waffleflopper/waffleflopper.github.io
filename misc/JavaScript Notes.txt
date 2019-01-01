@@ -32,6 +32,11 @@ if
 else
 else if
 ternary operator
+    condition ? expr1 : expr2;
+
+    var automatedAnswer = 
+    "Your account # is + ( isUserValid() ? "1234" : "not available");
+
 switch
 
 JAVASCRIPT LOGICAL OPERATORS
