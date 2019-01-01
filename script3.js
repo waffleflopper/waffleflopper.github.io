@@ -11,14 +11,17 @@ function createListElement() {
     var li = document.createElement("li");
     li.addEventListener("click", checkItem);
     li.appendChild(document.createTextNode(" " + userInput.value));
+
     //create the delete button
     var deleteBtn = document.createElement("button");
     deleteBtn.addEventListener("click", deleteItem);
-    deleteBtn.appendChild(document.createTextNode("Delete"));
-    //append the button to the li
-    li.insertBefore(deleteBtn, li.firstChild);
-    //append the li to the ul
-    ul.appendChild(li);
+    deleteBtn.appendChild(document.createTextNode("X"));
+    deleteBtn.classList.add("deleteBtn");
+
+    li.insertBefore(deleteBtn, li.firstChild);    //append the button to the li
+
+    ul.appendChild(li);    //append the li to the ul
+
     userInput.value = "";
 }
 
