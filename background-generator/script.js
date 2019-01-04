@@ -1,30 +1,15 @@
-/* 
+ const css = document.querySelector("#cssOutput");
+ const color1 = document.querySelector(".color1");
+ const color2 = document.querySelector(".color2");
 
-get cssOutput area to print css code for user
-get the colors from the input
+ const body = document.querySelector("#gradient");
 
-add a listener that changes the backgrounds linear-gradient on input
-for each color
+ css.textContent = `background: linear-gradient(to right, ${color1.value}, ${color2.value});`;
 
-output css code to cssOutput (create a textnode and shove it in that bitch)
+ const changeBG = () => {
+     body.style.background = `linear-gradient(to right, ${color1.value}, ${color2.value})`;
+     css.textContent = `background: ${body.style.background};`;
+ }
 
-*/
-
-var css = document.querySelector("#cssOutput");
-var color1 = document.querySelector(".color1");
-var color2 = document.querySelector(".color2");
-
-var body = document.querySelector("#gradient");
-
-css.textContent = "background: linear-gradient(to right, " + color1.value + ", " + color2.value + ");";
-
-function changeBG() {
-    body.style.background = "linear-gradient(to right, "
-     + color1.value + ", " + color2.value + ")";
-
-     css.textContent = "background: " + body.style.background + ";";
-}
-
-color1.addEventListener("input", changeBG);
-
-color2.addEventListener("input", changeBG);
+ color1.addEventListener("input", changeBG);
+ color2.addEventListener("input", changeBG);
