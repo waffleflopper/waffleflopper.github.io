@@ -15,7 +15,7 @@ const checkItem = (evt) => {
 }
 */
 //toggles "done" css class or adds it if not already there
-const checkItem = (evt) => evt.target.classList.contains("done") ? evt.target.classList.toggle("done") : evt.target.classList.add("done");
+const checkItem = (evt) => evt.target.classList.toggle("done");
 
 const deleteItem = (evt) => evt.target.parentElement.remove("li");
 
